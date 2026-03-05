@@ -1,0 +1,39 @@
+# Core LangChain and LangGraph
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-community>=0.3.0
+langchain-ollama>=0.3.0
+
+# Chroma vector database
+chromadb>=0.5.0
+
+# MCP (Model Context Protocol)
+mcp>=1.0.0
+langchain-mcp-adapters>=0.1.0
+
+# Ollama Python client
+ollama>=0.3.0
+
+# Embeddings (using sentence-transformers for local embeddings)
+sentence-transformers>=3.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Text processing
+tiktoken>=0.7.0
+
+# FastAPI server
+fastapi>=0.115.0
+uvicorn>=0.32.0
+pydantic>=2.0.0
+
+# Safe Control UI and Automation
+# Note: Tkinter is bundled with Python, no extra install needed for UI
+pyautogui>=0.9.54
+
+# Optional: Multi-modal support (uncomment as needed)
+# pypdf>=4.0.0          # PDF extraction
+# pytesseract>=0.3.10   # Image OCR
+# pillow>=10.0.0        # Image processing
+# openai-whisper>=20231117  # Audio transcription (large download)
